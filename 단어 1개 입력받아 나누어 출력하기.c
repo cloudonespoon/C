@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    char a[21] = "";
-    scanf("%s", &a);
-    for (int i = 0; a[i] != 0; i++) {
-        printf("\'%c\'\n", a[i]);
-    }
+    int a, b, c, d, e;
+    scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e);
+    printf("[%d]\n", a * 10000);
+    printf("[%d]\n", b * 1000);
+    printf("[%d]\n", c * 100);
+    printf("[%d]\n", d * 10);
+    printf("[%d]\n", e);
     return 0;
 }
